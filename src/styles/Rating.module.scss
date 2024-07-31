@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+
+  .header {
+    padding: 10px;
+    display: flex;
+
+    .formContainer {
+      display: flex;
+      gap: 5px;
+      margin: 7px 0 0 7px;
+
+      input {
+        width: 780px;
+      }
+    }
+  }
+
+  .body {
+    padding: 10px;
+
+    img {
+      cursor: pointer;
+      width: 20px;
+      height: 20px;
+    }
+  }
+}

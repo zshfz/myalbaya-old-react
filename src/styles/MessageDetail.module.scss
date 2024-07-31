@@ -1,0 +1,57 @@
+.container {
+  border: 1px solid black;
+  margin: 20px 350px 20px 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .title {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .message {
+    border: 1px solid lightgray;
+    width: 400px;
+    margin: 5px;
+
+    .nickname {
+      font-family: "넥슨고딕볼드";
+      padding: 5px;
+    }
+
+    .date {
+      font-size: 13px;
+    }
+
+    .content {
+      display: block;
+      color: gray;
+      font-size: 13px;
+      margin: 5px;
+    }
+  }
+
+  .myself {
+    border: 1px solid lightgray;
+    width: 400px;
+    margin: 5px;
+    background-color: lightgray;
+
+    .nickname {
+      font-family: "넥슨고딕볼드";
+      padding: 5px;
+    }
+
+    .date {
+      font-size: 13px;
+    }
+
+    .content {
+      display: block;
+      color: gray;
+      font-size: 13px;
+      margin: 5px;
+    }
+  }
+}

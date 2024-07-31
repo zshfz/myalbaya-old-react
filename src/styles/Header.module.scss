@@ -1,0 +1,85 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+
+  .left {
+    cursor: pointer;
+
+    h2 {
+      margin: 0;
+    }
+
+    h6 {
+      margin: 0;
+    }
+  }
+
+  .right {
+    display: flex;
+    align-items: center;
+
+    .brandRating {
+      &:hover {
+        .dropDownMenu {
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          background-color: white;
+          border: 1px solid black;
+          z-index: 2;
+          gap: 5px;
+          font-size: 13px;
+        }
+      }
+      .dropDown {
+        font-size: 13px;
+      }
+
+      .dropDownMenu {
+        display: none;
+      }
+    }
+
+    .dropDownImage {
+      width: 20px;
+      height: 20px;
+      border-radius: 0;
+      border: none;
+      margin-right: 5px;
+    }
+
+    .messageImage {
+      width: 30px;
+      height: 30px;
+      border-radius: 0;
+      border: none;
+      margin-right: 5px;
+    }
+
+    img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      border: 1px solid black;
+      cursor: pointer;
+    }
+
+    span {
+      margin: 5px;
+      cursor: pointer;
+    }
+
+    .userNickname {
+      font-family: "넥슨고딕볼드";
+    }
+  }
+}
+
+.boss {
+  background-color: skyblue;
+}
+
+.employee {
+  background-color: #faeb78;
+}

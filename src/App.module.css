@@ -1,0 +1,19 @@
+.App {
+    display: flex;
+    justify-content: center;
+    font-family: "넥슨고딕";
+
+    .container {
+        width: 1200px;
+    }
+}
+
+@font-face {
+    font-family: "넥슨고딕";
+    src: url("./fonts/넥슨고딕.otf") format("truetype");
+  }
+  
+@font-face {
+    font-family: "넥슨고딕볼드";
+    src: url("./fonts/넥슨고딕볼드.otf") format("truetype");
+  }

@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  .userInfoContainer {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid black;
+
+    .image {
+      img {
+        margin: 5px;
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+      }
+    }
+
+    .userInfo {
+      margin: 5px;
+      display: flex;
+      flex-direction: column;
+
+      .nicknameChangeContainer {
+        display: flex;
+        margin: 5px 0 5px 0;
+        gap: 5px;
+
+        input {
+          font-size: 13px;
+        }
+
+        button {
+          font-size: 13px;
+        }
+      }
+
+      .buttonGroup {
+        display: flex;
+        gap: 5px;
+
+        button {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+
+  .userBoard {
+    .header {
+      padding: 10px;
+      border-bottom: 1px solid black;
+
+      span {
+        font-size: 20px;
+      }
+    }
+
+    .body {
+      padding: 10px;
+
+      img {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.modalTitle {
+  font-family: "넥슨고딕";
+}
+
+.textarea {
+  width: 100%;
+  height: 100px;
+}

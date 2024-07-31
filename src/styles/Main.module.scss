@@ -1,0 +1,36 @@
+.container {
+  .board {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    .popularBoard {
+      width: 380px;
+      height: 280px;
+      border: 1px solid black;
+      border-radius: 2%;
+    }
+
+    .entireBoard {
+      width: 380px;
+      height: 280px;
+      border: 1px solid black;
+      border-radius: 2%;
+    }
+
+    .hireBoard {
+      width: 380px;
+      height: 280px;
+      border: 1px solid black;
+      border-radius: 2%;
+    }
+  }
+
+  .card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 10px;
+  }
+}

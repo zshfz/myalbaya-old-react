@@ -1,0 +1,30 @@
+.container {
+  width: 300px;
+  border: 1px solid black;
+
+  img {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+
+  .dropDownButton {
+    display: flex;
+    gap: 5px;
+  }
+}
+
+.boss {
+  background-color: skyblue;
+  color: black;
+  border: none;
+}
+
+.employee {
+  background-color: #faeb78;
+  color: black;
+  border: none;
+}

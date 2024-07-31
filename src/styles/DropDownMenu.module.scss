@@ -1,0 +1,111 @@
+.boss {
+  position: absolute;
+  top: 65px;
+  left: 0;
+  width: 100%;
+  background-color: skyblue;
+  z-index: 1;
+  border: 1px solid black;
+
+  .header {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 20px;
+
+    .transparent {
+      opacity: 0.5;
+      font-family: "넥슨고딕볼드";
+    }
+
+    .opaque {
+      opacity: 1;
+      font-family: "넥슨고딕볼드";
+    }
+  }
+
+  .body {
+    display: flex;
+    justify-content: space-between;
+
+    .category {
+      padding: 0 10px 10px 10px;
+      .categoryHeader {
+        display: flex;
+        justify-content: center;
+        font-family: "넥슨고딕볼드";
+        pointer-events: none;
+      }
+
+      .brand {
+        display: flex;
+        flex-direction: column;
+        .brandBody {
+          display: flex;
+          justify-content: center;
+          cursor: pointer;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+.employee {
+  position: absolute;
+  top: 65px;
+  left: 0;
+  width: 100%;
+  background-color: #faeb78;
+  z-index: 1;
+  border: 1px solid black;
+
+  .header {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 20px;
+
+    .transparent {
+      opacity: 0.5;
+      font-family: "넥슨고딕볼드";
+    }
+
+    .opaque {
+      opacity: 1;
+      font-family: "넥슨고딕볼드";
+    }
+  }
+
+  .body {
+    display: flex;
+    justify-content: space-between;
+
+    .category {
+      padding: 0 10px 10px 10px;
+      .categoryHeader {
+        display: flex;
+        justify-content: center;
+        font-family: "넥슨고딕볼드";
+        pointer-events: none;
+      }
+
+      .brand {
+        display: flex;
+        flex-direction: column;
+        .brandBody {
+          display: flex;
+          justify-content: center;
+          cursor: pointer;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}

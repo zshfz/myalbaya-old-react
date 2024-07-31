@@ -1,0 +1,141 @@
+.container {
+  border: 1px solid black;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding: 10px;
+
+    .left {
+      span {
+        margin: 5px;
+      }
+
+      .author {
+        font-size: 13px;
+        cursor: pointer;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      .date {
+        font-size: 13px;
+      }
+
+      img {
+        width: 20px;
+        height: 20px;
+        border: 1px solid black;
+        border-radius: 30%;
+        margin: 1px;
+        cursor: pointer;
+      }
+    }
+
+    .right {
+      span {
+        font-size: 13px;
+        margin: 5px;
+      }
+    }
+  }
+
+  .body {
+    border-bottom: 1px solid black;
+    padding: 10px;
+    span {
+      margin: 5px;
+    }
+
+    .buttonGroup {
+      display: flex;
+      justify-content: center;
+      gap: 5px;
+      margin: 5px;
+    }
+  }
+
+  .commentContainer {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .commentCount {
+      color: lightgray;
+      font-size: 13px;
+    }
+
+    .commentInput {
+      input {
+        width: 500px;
+        height: 100px;
+      }
+
+      button {
+        width: 100px;
+        height: 100px;
+      }
+    }
+
+    .commentList {
+      .comment {
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid lightgray;
+        width: 600px;
+        margin: 5px;
+        padding: 5px;
+
+        .left {
+          span {
+            margin: 5px;
+          }
+
+          .author {
+            font-family: "넥슨고딕볼드";
+          }
+
+          .date {
+            font-size: 13px;
+          }
+
+          .replyComment {
+            font-size: 13px;
+            cursor: pointer;
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+
+          .content {
+            display: block;
+          }
+
+          .updateContent {
+            display: flex;
+            align-items: flex-end;
+
+            textarea {
+              margin-right: 5px;
+            }
+
+            button {
+              margin-right: 5px;
+            }
+          }
+        }
+
+        .right {
+          display: flex;
+          align-items: flex-end;
+          gap: 5px;
+        }
+      }
+    }
+  }
+}
